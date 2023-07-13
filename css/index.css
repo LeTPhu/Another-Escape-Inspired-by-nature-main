@@ -1,0 +1,234 @@
+body{
+    margin: auto;
+    font-family: Gordita,Helvetica Neue,sans-serif;
+}
+ion-icon{
+    font-size: 23px;
+}
+menu nav {
+    position: fixed;
+}
+menu .navbar-brand {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+}
+menu .navbar-header {
+    width: 21%;
+}
+menu {
+    padding-left: 0px;
+    color:rgba(0, 0, 0, 0); 
+    font-weight: bold;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.container {
+    width: 93%;
+}
+menu center {
+    position: relative;
+    display: block;
+    margin-left: 35%;
+    font-weight: lighter;
+    color: black !important;
+}
+.clearFix{
+    clear: both;
+}
+h4 {
+    font-weight: bold;
+}
+.cachdeu {
+    height: 50px;
+}
+menu .dropdown-menu >img{
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    max-width: 80%;
+    zoom: 60%;
+}
+h5 {
+    font-weight: bold;
+}
+body{
+    animation-name: example;
+    animation-duration: 0.5s;  
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {opacity: 0%;  }
+    to {opacity: 100%; }
+  }
+/* -------------------------------------- */
+footer {
+    line-height: 2.5;
+    background-color: #d8d8d8;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+footer input[type='text'] {
+    width: 90%;
+    border: none;
+    height: 30px;
+    outline: none;
+    padding-top: 5px;
+    background-color: #d8d8d8;
+}
+footer .contact-email  {
+    border: 1px solid ;
+    width: 80%;
+    padding-left: 10px;
+    height: 38px;
+    box-sizing: border-box;
+}
+footer ion-icon {
+    margin-right: 5%;
+    font-size: medium;
+}
+footer .row-right ul li{
+    margin-right: 2%;
+    font-size: 90%;
+    display: inline-block;
+}  
+footer .row-right {
+    float: right;
+    width: 50%;
+}
+footer img {
+    zoom: 20%;
+    margin-bottom: 120px;
+}
+footer .col-sm-3{
+    width: 25%;
+}
+/* ------------------------------------------ */
+#img-f img{
+    max-width: 100%;
+    display: block;
+}
+#img-f {
+    display: block;
+}
+#img-f button{
+    margin-top: -100px;
+    position: relative;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0);
+}
+p1 img,p2 img,p4 img,p5 img{
+    max-width: 99%;
+    max-height: 99%;
+    -webkit-transition: all 10s ease;
+    -moz-transition: all 10s ease;
+    -ms-transition: all 10s ease;
+    transition: all 10s ease;
+}
+p1 img:hover,p2 img:hover,p4 img:hover,p5 img:hover{
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari 3-8 */
+    transform: scale(1.15); 
+}
+p1 .anh{
+    overflow: hidden;
+    width: 601px;
+    height: 444px;
+}
+p1 .left {
+    width: 10%;
+}
+p2 .anh{
+    overflow: hidden;
+    width: 389px;
+    height: 449px;
+}
+p5 .anh, p4 .anh{
+    overflow: hidden;
+    width: 322px;
+    height: 409px;
+}
+
+p3 .btn-block {
+    display: block;
+    width: 15%;
+    margin: auto;
+}
+p3 .btn-default:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+p3 .btn-default{
+    border-color: #969393;
+    border-radius: 0px;
+}
+p4 img {
+    max-width: 99.5%;
+}
+p4 p ,p5 p {
+    font-size: 80%;
+}
+p5 img {
+    max-width: 99.5%;
+}
+
+p6 input[type='text'] {
+    width: 92%;
+    border: none;
+    height: 30px;
+    outline: none;
+    padding-top: 5px;
+}
+p6 .contact-email  {
+    border: 1px solid ;
+    width: 40%;
+    padding-left: 10px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.contact-email >a > ion-icon {
+    padding-top: 5px;
+    color: #000000;
+}
+
+p6 {
+    display: block;
+}
+
+p7 .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #eee;
+}
+p7 .row {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+p7 span{
+    margin-left: 2%;
+}
+p7 .cachdeu {
+    height: 20px;
+}
+p7 .right {
+    font-weight: bold;
+}
+

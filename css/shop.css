@@ -1,0 +1,191 @@
+body{
+    margin: auto;
+    font-family: Gordita,Helvetica Neue,sans-serif;
+}
+ion-icon{
+    font-size: 23px;
+}
+menu nav {
+    position: fixed;
+}
+menu .navbar-brand {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+}
+
+menu .navbar-header {
+    width: 21%;
+}
+menu {
+    padding-left: 0px;
+    color:rgba(0, 0, 0, 0); 
+    font-weight: bold;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.container {
+    width: 93%;
+}
+menu center {
+    position: relative;
+    display: block;
+    margin-left: 35%;
+    font-weight: lighter;
+    color: black !important;
+}
+.clearFix{
+    clear: both;
+}
+h4 {
+    font-weight: bold;
+}
+.cachdeu {
+    height: 50px;
+}
+menu .dropdown-menu >img{
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    max-width: 80%;
+    zoom: 60%;
+}
+h5 {
+    font-weight: bold;
+}
+/* -------------------------------------- */
+footer {
+    line-height: 2.5;
+    background-color: #d8d8d8;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+footer input[type='text'] {
+    width: 90%;
+    border: none;
+    height: 30px;
+    outline: none;
+    padding-top: 5px;
+    background-color: #d8d8d8;
+}
+footer .contact-email  {
+    border: 1px solid ;
+    width: 80%;
+    padding-left: 10px;
+    height: 38px;
+    box-sizing: border-box;
+}
+footer ion-icon {
+    margin-right: 5%;
+    font-size: medium;
+}
+footer .row-right ul li{
+    margin-right: 2%;
+    font-size: 90%;
+    display: inline-block;
+}  
+footer .row-right {
+    float: right;
+    width: 50%;
+}
+footer img {
+    zoom: 20%;
+    margin-bottom: 120px;
+}
+body{
+    animation-name: example;
+    animation-duration: 0.5s;  
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {opacity: 0%;  }
+    to {opacity: 100%; }
+  }
+footer .col-sm-3{
+    width: 25%;
+}
+/* ------------------------------------- */
+p6 input[type='text'] {
+    width: 92%;
+    border: none;
+    height: 30px;
+    outline: none;
+    padding-top: 5px;
+}
+p6 .contact-email  {
+    border: 1px solid ;
+    width: 40%;
+    padding-left: 10px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.contact-email >a > ion-icon {
+    padding-top: 5px;
+    color: #000000;
+}
+
+p6 {
+    display: block;
+}
+p7 .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #eee;
+}
+p7 .row {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+p7 span{
+    margin-left: 2%;
+}
+p7 .cachdeu {
+    height: 20px;
+}
+p7 .right {
+    font-weight: bold;
+}
+p3 .btn-block {
+    display: block;
+    width: 15%;
+    margin: auto;
+}
+p3 .btn-default:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+p3 .btn-default{
+    border-color: #969393;
+    border-radius: 0px;
+}
+shop .tren > .right {
+    font-weight: bold;
+}
+shop .duoi > .left {
+    font-weight: bold;
+}
+shop img {
+    max-width: 99%;
+}
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}

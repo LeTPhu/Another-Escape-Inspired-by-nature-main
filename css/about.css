@@ -1,0 +1,146 @@
+@font-face {
+    font-family:Plantin;
+    src: url(../fonts/Plantin.otf);
+}
+body{
+    margin: auto;
+    font-family: Gordita,Helvetica Neue,sans-serif;
+}
+ion-icon{
+    font-size: 23px;
+}
+menu nav {
+    position: fixed;
+}
+menu .navbar-brand {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+}
+
+menu .navbar-header {
+    width: 21%;
+}
+menu {
+    padding-left: 0px;
+    color:rgba(0, 0, 0, 0); 
+    font-weight: bold;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.container {
+    width: 93%;
+}
+menu center {
+    position: relative;
+    display: block;
+    margin-left: 35%;
+    font-weight: lighter;
+    color: black !important;
+}
+.clearFix{
+    clear: both;
+}
+h4 {
+    font-weight: bold;
+}
+.cachdeu {
+    height: 50px;
+}
+/* -------------------------------------- */
+footer {
+    line-height: 2.5;
+    background-color: #d8d8d8;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+footer input[type='text'] {
+    width: 90%;
+    border: none;
+    height: 30px;
+    outline: none;
+    padding-top: 5px;
+    background-color: #d8d8d8;
+}
+footer .contact-email  {
+    border: 1px solid ;
+    width: 80%;
+    padding-left: 10px;
+    height: 38px;
+    box-sizing: border-box;
+}
+footer ion-icon {
+    margin-right: 5%;
+    font-size: medium;
+}
+footer .row-right ul li{
+    margin-right: 2%;
+    font-size: 90%;
+    display: inline-block;
+}  
+footer .row-right {
+    float: right;
+    width: 50%;
+}
+footer img {
+    zoom: 20%;
+    margin-bottom: 120px;
+}
+footer .col-sm-3{
+    width: 25%;
+}
+/* ------------------------------------------ */
+p1{
+    background-color: #fafafa;
+}
+p1 p{
+    text-align: left;
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    font-family: Plantin;
+    font-weight: 400;
+}
+p3 .container {
+    width: 80%;
+}
+p3 .col-sm-6 {
+    width: 45%;
+    padding-left: 5%;
+}
+p3 img {
+    zoom: 30%;
+}
+p3 p{
+    font-size: 17px;
+    font-family: Plantin;
+
+}
+p3 hr {
+    border-top: 1px solid rgb(98, 98, 98);
+}
+
+body{
+    animation-name: example;
+    animation-duration: 0.5s;  
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {opacity: 0%;  }
+    to {opacity: 100%; }
+  }
